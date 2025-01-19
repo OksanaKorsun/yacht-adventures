@@ -1,0 +1,8 @@
+.hero {
+    background-color: blueviolet;
+    background-image: url(/img/vite-logo.png);
+}
+.title-hero {
+    font-size: 32px;
+   color: aqua;
+}
