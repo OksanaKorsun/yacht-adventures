@@ -1,0 +1,28 @@
+/* .reviews {
+}
+.reviews-text {
+} */
+.reviews-text-accent {
+  font-style: italic;
+  background: var(--accent-text-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .reviews-list {
+}
+.reviews-item {
+} */
+.reviews-item-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+.reviews-item-desc {
+  text-align: center;
+  opacity: 0.5;
+}
+/* .reviews-goup-link {
+} */

@@ -1,4 +1,46 @@
-.test {
-    display: flex;
-    gap: 32px;
+/* .yahts {
+}
+.yahts-btn {
+} */
+/* .swiper {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+} */
+/* .yahts-heading {
+} */
+.yahts-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.yahts-class {
+  font-size: 12px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+/* .yahts-detail-list {
+} */
+/* .yahts-info {
+  
+} */
+.yahts-detail-term {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.yahts-detail-data {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }

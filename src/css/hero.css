@@ -1,0 +1,39 @@
+/* .hero {
+}
+.hero-left-content {
+} */
+.hero-left-digit {
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.hero-left-text {
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: var(--secondary-text-color);
+}
+/* .hero-right-content {
+} */
+.hero-right-accent {
+  /* font-style: italic;
+  color: var(--accent-text-color); */
+  font-style: italic;
+  background: var(--accent-text-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .hero-right-list {
+} */
+.hero-right-btn1 {
+  background-color: var(--button-bg-color);
+}
+.hero-right-btn1:hover,
+.hero-right-btn1:focus {
+  background-color: var(--accent-bg-color);
+}
+/* .hero-right-btn2 {
+} */

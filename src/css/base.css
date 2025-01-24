@@ -2,12 +2,14 @@
   /* Fonts */
   --font: DM Sans, sans-serif;
   /* Colors */
-  --secondary-text-color: #11131f;
   --main-text-color: #f6f5ef;
+  --secondary-text-color: #11131f;
   --accent-text-color: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
+  --transparent-text-color: rgba(246, 245, 239, 0.5);
 
   /* Background color */
-  --main-bg-color: #1f212d;
+  --secondary-bg-color: #1f212d;
+  --main-bg-color: #11131f;
   --button-bg-color: #93abae;
   --accent-bg-color: #88b3b9;
   /* Others */
@@ -22,7 +24,19 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .title {
   font-weight: 500;
   font-size: 60px;
@@ -35,7 +49,20 @@ body {
   line-height: 1.2;
   letter-spacing: -0.045em;
 }
-
+.btn {
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+/* .logo-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+} */
 /* .text-style-button-text {
   font-size: 18px;
   font-family: DM Sans;

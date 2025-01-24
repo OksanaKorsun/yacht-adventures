@@ -1,15 +1,33 @@
-/* .header {}
+/* .header {
+}
 
-.header-logo {}
+.header-logo {
+}
 
-.header-logo-img {}
+.header-logo-img {
+} */
 
-.header-logo-text {}
+.header-logo-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
 
-.header-nav {}
+/* .header-nav {
+}
 
-.header-nav-list {}
+.header-nav-list {
+} */
 
-.header-nav-item {}
+.header-nav-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
-.header-nav-link {} */
+/* .header-nav-link {
+} */
