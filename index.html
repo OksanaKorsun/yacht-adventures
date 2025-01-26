@@ -12,14 +12,22 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap"
       rel="stylesheet"
     />
+    <!-- Modern normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Custom styles -->
 
     <script type="module" crossorigin src="/yacht-adventures/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/yacht-adventures/assets/index-BZ6F6lM2.css">
+    <link rel="stylesheet" crossorigin href="/yacht-adventures/assets/index-oSYidIkQ.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
+  <div class="header-container container">
     <a class="header-logo" href="/index.html">
       <img
         class="header-logo-img"
@@ -50,212 +58,302 @@
     <main>
       <!-- Loads the specified .html file -->
       <section class="hero">
-  <div class="container">
-    <img src="/yacht-adventures/assets/mask-group-CrAabvUF.svg" alt="Maska" />
-    <img src="/yacht-adventures/assets/clients-BGaTx_YO.png" alt="Clients" />
-    <img src="/yacht-adventures/assets/man-DiSTY5ng.jpg" alt="Owner" />
-    <img src="/yacht-adventures/assets/yaht-CwkS-K6y.jpg" alt="Yacht" />
+  <div class="container hero-container">
     <div class="hero-left-content">
-      <p class="hero-left-digit">$12M</p>
-      <p class="hero-left-text">Book now and make your dream yacht rental a reality</p>
+      <img src="/yacht-adventures/assets/mask-group-CrAabvUF.svg" alt="Maska" />
+      <img src="/yacht-adventures/assets/clients-BGaTx_YO.png" alt="Clients" />
+      <img src="/yacht-adventures/assets/man-DiSTY5ng.jpg" alt="Owner" />
+      <img src="/yacht-adventures/assets/yaht-CwkS-K6y.jpg" alt="Yacht" />
+      <div class="hero-left-sign">
+        <p class="hero-left-digit">$12M</p>
+        <p class="hero-left-text">
+          Book now and make your dream yacht rental a reality
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="hero-right-content">
-    <h1 class="title">
-      Explore the High Seas with <span class="hero-right-accent">Our Luxury Yacht</span> Rentals
-    </h1>
-    <p>
-      Experience the freedom and luxury of yachting on the open seas. Choose
-      from our top-of-the-line yachts and embark on an unforgettable journey
-      surrounded by breathtaking views and state-of-the-art amenities.
-    </p>
-    <ul class="hero-right-list">
-      <li><button class="btn hero-right-btn1" type="button">Get Started</button></li>
-      <li><button class="btn hero-right-btn2" type="button">Explore</button></li>
-    </ul>
-  </div>
-  </div>
-    
-</section>
-
-      <section class="about">
-  <div class="container">
-    <div class="about-left-content">
-      <h3 class="subtitle">
-        <span class="about-left-accent">Yacht Adventures</span> fleet is here to
-        take you on the ultimate adventure. Each yacht is hand-picked for its
-        comfort, style, and performance.
-      </h3>
-    </div>
-    <div class="about-right-content">
-      <ul class="about-right-list">
+    <div class="hero-right-content">
+      <h1 class="title">
+        Explore the High Seas with
+        <span class="hero-right-accent">Our Luxury Yacht</span> Rentals
+      </h1>
+      <p class="hero-right-text">
+        Experience the freedom and luxury of yachting on the open seas. Choose
+        from our top-of-the-line yachts and embark on an unforgettable journey
+        surrounded by breathtaking views and state-of-the-art amenities.
+      </p>
+      <ul class="hero-right-list">
         <li>
-          <p>
-            From spacious decks to state-of-the-art technology, our yachts are
-            designed to provide the perfect blend of luxury and functionality.
-            Take a look at our selection below and choose the yacht that matches
-            your needs and preferences.
-          </p>
+          <button class="btn hero-right-btn1" type="button">Get Started</button>
         </li>
         <li>
-          <p>
-            No matter which yacht you choose, our experienced crew will ensure
-            that your journey is smooth and enjoyable. Book now and get ready
-            for an unforgettable adventure on the high seas.
-          </p>
+          <button class="btn hero-right-btn2" type="button">Explore</button>
         </li>
       </ul>
     </div>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container about-container">
+    <div class="about-top-content">
+      <div class="about-left-content">
+        <h3 class="subtitle">
+          <span class="about-left-accent">Yacht Adventures</span> fleet is here
+          to take you on the ultimate adventure. Each yacht is hand-picked for
+          its comfort, style, and performance.
+        </h3>
+      </div>
+      <div class="about-right-content">
+        <p class="about-column1">
+          From spacious decks to state-of-the-art technology, our yachts are
+          designed to provide the perfect blend of luxury and functionality.
+          Take a look at our selection below and choose the yacht that matches
+          your needs and preferences.
+        </p>
+
+        <p class="about-column2">
+          No matter which yacht you choose, our experienced crew will ensure
+          that your journey is smooth and enjoyable. Book now and get ready for
+          an unforgettable adventure on the high seas.
+        </p>
+      </div>
+    </div>
     <div class="about-gallery">
-      <img src="/yacht-adventures/assets/about-yaht-1-DBf_G6Oj.jpg" alt="First Yaht" />
-      <img src="/yacht-adventures/assets/about-yaht-2-DWHPnrKn.jpg" alt="Second Yaht" />
-      <img src="/yacht-adventures/assets/about-yaht-3-yxG_wA-W.jpg" alt="Third yaht" />
+      <div class="about-gallery-img">
+        <img class="test" src="/yacht-adventures/assets/about-yaht-1-DBf_G6Oj.jpg" alt="First Yaht" />
+      </div>
+      <div class="about-gallery-side">
+        <img src="/yacht-adventures/assets/about-yaht-2-DWHPnrKn.jpg" alt="Second Yaht" />
+        <img src="/yacht-adventures/assets/about-yaht-3-yxG_wA-W.jpg" alt="Third yaht" />
+      </div>
     </div>
   </div>
 </section>
 
       <section class="yahts">
   <div class="container">
-    <h2 clas="yahts-title">
-      Choose your dream yacht and sail away into the sunset
-    </h2>
-    <button class="btn yahts-btn" type="button">Yacht rental</button>
-  </div>
-  <div class="swiper">
-    <button class="swiper-button-prev">Prev</button>
-    <button class="swiper-button-next">Next</button>
-    <ul class="swiper-wrapper">
-      <li class="swiper-slide">
-        <img
-          src="/yacht-adventures/assets/yahts-img-1-CWiCJ34m.jpg"
-          alt="Yacht"
-          width="322"
-          height="268"
-        />
-        <div class="yahts-heading">
-          <h3 class="yahts-name">Arrow</h3>
-          <p class="yahts-class">LUXURY YAHTS</p>
-        </div>
-        <dl class="yahts-detail-list">
-          <div class="yahts-info">
-            <dt class="yahts-detail-term">LENGTH</dt>
-            <dd class="yahts-detail-data">48m(155ft)</dd>
+    <div class="yahts-rental">
+      <h2 class="yahts-title">
+        Choose your dream yacht and sail away into the sunset
+      </h2>
+      <button class="btn yahts-btn" type="button">Yacht rental</button>
+    </div>
+    <div class="swiper yahts-cards">
+      <button class="swiper-button-prev btn">Prev</button>
+      <button class="swiper-button-next btn">Next</button>
+      <ul class="yahts-list swiper-wrapper">
+        <li class="yahts-item swiper-slide">
+          <div class="yahts-thumb">
+            <img
+              class="yahts-card-img"
+              src="/yacht-adventures/assets/yahts-img-1-CWiCJ34m.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
           </div>
-          <div>
-            <dt>BUILDER</dt>
-            <dd>Admiral</dd>
+          <div class="yahts-card-content">
+            <div class="yahts-card-heading">
+              <h3 class="yahts-name">Arrow</h3>
+              <p class="yahts-class">LUXURY YAHTS</p>
+            </div>
+            <dl class="yahts-detail-list">
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">LENGTH</dt>
+                <dd class="yahts-detail-data">48m(155ft)</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">BUILDER</dt>
+                <dd class="yahts-detail-data">Admiral</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">BUILT</dt>
+                <dd class="yahts-detail-data">2021</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">GUESTS</dt>
+                <dd class="yahts-detail-data">11 in 5 cabins</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">PRICE</dt>
+                <dd class="yahts-detail-data">€33,500,000</dd>
+              </div>
+            </dl>
           </div>
-          <div>
-            <dt>BUILT</dt>
-            <dd>2021</dd>
+        </li>
+        <li class="yahts-item swiper-slide">
+          <div class="yahts-thumb">
+            <img
+              class="yahts-card-img"
+              src="/yacht-adventures/assets/yahts-img-2-BPYHTAK7.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
           </div>
-          <div>
-            <dt>GUESTS</dt>
-            <dd>11 in 5 cabins</dd>
+          <div class="yahts-card-content">
+            <div class="yahts-card-heading">
+              <h3 class="yahts-name">BENETTI OASIS 40M BO122</h3>
+              <p class="yahts-class">LUXURY YAHTS</p>
+            </div>
+            <dl class="yahts-detail-list">
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">LENGTH</dt>
+                <dd class="yahts-detail-data">41m (133ft)</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">SHIPYARD</dt>
+                <dd class="yahts-detail-data">Benetti</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">BUILT</dt>
+                <dd class="yahts-detail-data">2025</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">GUESTS</dt>
+                <dd class="yahts-detail-data">10 in 5 cabins</dd>
+              </div>
+              <div class="yahts-info">
+                <dt class="yahts-detail-term">PRICE</dt>
+                <dd class="yahts-detail-data">€23,210,000</dd>
+              </div>
+            </dl>
           </div>
-          <div>
-            <dt>PRICE</dt>
-            <dd>€33,500,000</dd>
-          </div>
-        </dl>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-2-BPYHTAK7.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>BENETTI OASIS 40M BO122</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <dl>
+        </li>
+        <li class="swiper-slide">
+          <article>
+            <img
+              src="/yacht-adventures/assets/yahts-img-3-BteLT5Cx.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
             <div>
-              <dt>LENGTH</dt>
-              <dd>41m (133ft)</dd>
+              <h3>BELLE ANNA</h3>
+              <p>LUXURY YAHTS</p>
             </div>
-            <div>
-              <dt>BUILDER</dt>
-              <dd>Benetti</dd>
-            </div>
-            <div>
-              <dt>BUILT</dt>
-              <dd>2025</dd>
-            </div>
-            <div>
-              <dt>GUESTS</dt>
-              <dd>10 in 5 cabins</dd>
-            </div>
-            <div>
-              <dt>PRICE</dt>
-              <dd>€23,210,000</dd>
-            </div>
-          </dl>
-        </article>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-3-BteLT5Cx.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>BELLE ANNA</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <dl>
-            <div>
-              <dt>LENGTH</dt>
-              <dd>50m(155ft)</dd>
-            </div>
-            <div>
-              <dt>BUILDER</dt>
-              <dd>ISA</dd>
-            </div>
-            <div>
-              <dt>BUILT</dt>
-              <dd>2012</dd>
-            </div>
-            <div>
-              <dt>GUESTS</dt>
-              <dd>12 in 6 cabins</dd>
-            </div>
-            <div>
-              <dt>PRICE</dt>
-              <dd>€21,000,000</dd>
-            </div>
-          </dl>
-        </article>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-4-DIhVaB2m.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>Ellen</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <div>
             <dl>
               <div>
                 <dt>LENGTH</dt>
-                <dd>40m (132ft)</dd>
+                <dd>50m(155ft)</dd>
               </div>
               <div>
                 <dt>SHIPYARD</dt>
-                <dd>Perini Navi</dd>
+                <dd>ISA</dd>
               </div>
               <div>
                 <dt>BUILT</dt>
-                <dd>2001 / 2016 (refitted)</dd>
+                <dd>2012</dd>
+              </div>
+              <div>
+                <dt>GUESTS</dt>
+                <dd>12 in 6 cabins</dd>
+              </div>
+              <div>
+                <dt>PRICE</dt>
+                <dd>€21,000,000</dd>
+              </div>
+            </dl>
+          </article>
+        </li>
+        <li class="swiper-slide">
+          <article>
+            <img
+              src="/yacht-adventures/assets/yahts-img-4-DIhVaB2m.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
+            <div>
+              <h3>Ellen</h3>
+              <p>LUXURY YAHTS</p>
+            </div>
+            <div>
+              <dl>
+                <div>
+                  <dt>LENGTH</dt>
+                  <dd>40m (132ft)</dd>
+                </div>
+                <div>
+                  <dt>SHIPYARD</dt>
+                  <dd>Perini Navi</dd>
+                </div>
+                <div>
+                  <dt>BUILT</dt>
+                  <dd>2001 / 2016 (refitted)</dd>
+                </div>
+                <div>
+                  <dt>GUESTS</dt>
+                  <dd>9 in 4 cabins</dd>
+                </div>
+                <div>
+                  <dt>PRICE</dt>
+                  <dd>€9,300,000</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        </li>
+        <li class="swiper-slide">
+          <article>
+            <img
+              src="/yacht-adventures/assets/yahts-img-5-C2yIseFh.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
+            <div>
+              <h3>MIRAGE 401</h3>
+              <p>LUXURY YAHTS</p>
+            </div>
+            <dl>
+              <div>
+                <dt>LENGTH</dt>
+                <dd>38m (125ft)</dd>
+              </div>
+              <div>
+                <dt>SHIPYARD</dt>
+                <dd>Gianetti Custom Yachts</dd>
+              </div>
+              <div>
+                <dt>BUILT</dt>
+                <dd>2024</dd>
+              </div>
+              <div>
+                <dt>GUESTS</dt>
+                <dd>10 in 5 cabins</dd>
+              </div>
+              <div>
+                <dt>PRICE</dt>
+                <dd>€13,500,000</dd>
+              </div>
+            </dl>
+          </article>
+        </li>
+        <li class="swiper-slide">
+          <article>
+            <img
+              src="/yacht-adventures/assets/yahts-img-6-BjxADjM4.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
+            <div>
+              <h3>KING</h3>
+              <p>LUXURY YAHTS</p>
+            </div>
+            <dl>
+              <div>
+                <dt>LENGTH</dt>
+                <dd>33m (109ft)</dd>
+              </div>
+              <div>
+                <dt>SHIPYARD</dt>
+                <dd>Overmarine</dd>
+              </div>
+              <div>
+                <dt>BUILT</dt>
+                <dd>2004 / 2018 (refitted)</dd>
               </div>
               <div>
                 <dt>GUESTS</dt>
@@ -263,237 +361,168 @@
               </div>
               <div>
                 <dt>PRICE</dt>
-                <dd>€9,300,000</dd>
+                <dd>€1,850,000</dd>
               </div>
             </dl>
-          </div>
-        </article>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-5-C2yIseFh.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>MIRAGE 401</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <dl>
+          </article>
+        </li>
+        <li class="swiper-slide">
+          <article>
+            <img
+              src="/yacht-adventures/assets/yahts-img-7-C3iZAz0I.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
             <div>
-              <dt>LENGTH</dt>
-              <dd>38m (125ft)</dd>
+              <h3>SALT</h3>
+              <p>LUXURY YAHTS</p>
             </div>
             <div>
-              <dt>BUILDER</dt>
-              <dd>Gianetti Custom Yachts</dd>
+              <dl>
+                <div>
+                  <dt>LENGTH</dt>
+                  <dd>32m (105ft)</dd>
+                </div>
+                <div>
+                  <dt>BUILDER</dt>
+                  <dd>SanLorenzo</dd>
+                </div>
+                <div>
+                  <dt>BUILT</dt>
+                  <dd>2019</dd>
+                </div>
+                <div>
+                  <dt>GUESTS</dt>
+                  <dd>11 in 5 cabins</dd>
+                </div>
+                <div>
+                  <dt>PRICE</dt>
+                  <dd>€7,800,000</dd>
+                </div>
+              </dl>
             </div>
+          </article>
+        </li>
+        <li class="swiper-slide">
+          <article>
+            <img
+              src="/yacht-adventures/assets/yahts-img-8-CSTtIiQU.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
             <div>
-              <dt>BUILT</dt>
-              <dd>2024</dd>
+              <h3>STORM</h3>
+              <p>LUXURY YAHTS</p>
             </div>
-            <div>
-              <dt>GUESTS</dt>
-              <dd>10 in 5 cabins</dd>
-            </div>
-            <div>
-              <dt>PRICE</dt>
-              <dd>€13,500,000</dd>
-            </div>
-          </dl>
-        </article>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-6-BjxADjM4.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>KING</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <dl>
-            <div>
-              <dt>LENGTH</dt>
-              <dd>33m (109ft)</dd>
-            </div>
-            <div>
-              <dt>BUILDER</dt>
-              <dd>Overmarine</dd>
-            </div>
-            <div>
-              <dt>BUILT</dt>
-              <dd>2004 / 2018 (refitted)</dd>
-            </div>
-            <div>
-              <dt>GUESTS</dt>
-              <dd>9 in 4 cabins</dd>
-            </div>
-            <div>
-              <dt>PRICE</dt>
-              <dd>€1,850,000</dd>
-            </div>
-          </dl>
-        </article>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-7-C3iZAz0I.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>SALT</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <div>
             <dl>
               <div>
                 <dt>LENGTH</dt>
-                <dd>32m (105ft)</dd>
+                <dd>32m (103ft)</dd>
               </div>
               <div>
-                <dt>BUILDER</dt>
-                <dd>SanLorenzo</dd>
+                <dt>SHIPYARD</dt>
+                <dd>Overmarine</dd>
               </div>
               <div>
                 <dt>BUILT</dt>
-                <dd>2019</dd>
+                <dd>2005 / 2022 (refitted)</dd>
               </div>
               <div>
                 <dt>GUESTS</dt>
-                <dd>11 in 5 cabins</dd>
+                <dd>9 in 4 cabins</dd>
               </div>
               <div>
                 <dt>PRICE</dt>
-                <dd>€7,800,000</dd>
+                <dd>€2,900,000</dd>
               </div>
             </dl>
-          </div>
-        </article>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-8-CSTtIiQU.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>STORM</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <dl>
+          </article>
+        </li>
+        <li class="swiper-slide">
+          <article>
+            <img
+              src="/yacht-adventures/assets/yahts-img-9-8hfDCQue.jpg"
+              alt="Yacht"
+              width="322"
+              height="268"
+            />
             <div>
-              <dt>LENGTH</dt>
-              <dd>32m (103ft)</dd>
+              <h3>COLLU</h3>
+              <p>LUXURY YAHTS</p>
             </div>
-            <div>
-              <dt>BUILDER</dt>
-              <dd>Overmarine</dd>
-            </div>
-            <div>
-              <dt>BUILT</dt>
-              <dd>2005 / 2022 (refitted)</dd>
-            </div>
-            <div>
-              <dt>GUESTS</dt>
-              <dd>9 in 4 cabins</dd>
-            </div>
-            <div>
-              <dt>PRICE</dt>
-              <dd>€2,900,000</dd>
-            </div>
-          </dl>
-        </article>
-      </li>
-      <li class="swiper-slide">
-        <article>
-          <img
-            src="/yacht-adventures/assets/yahts-img-9-8hfDCQue.jpg"
-            alt="Yacht"
-            width="322"
-            height="268"
-          />
-          <div>
-            <h3>COLLU</h3>
-            <p>LUXURY YAHTS</p>
-          </div>
-          <dl>
-            <div>
-              <dt>LENGTH</dt>
-              <dd>29m (96ft)</dd>
-            </div>
-            <div>
-              <dt>BUILDER</dt>
-              <dd>Ferretti</dd>
-            </div>
-            <div>
-              <dt>BUILT</dt>
-              <dd>2014</dd>
-            </div>
-            <div>
-              <dt>GUESTS</dt>
-              <dd>10 in 5 cabins</dd>
-            </div>
-            <div>
-              <dt>PRICE</dt>
-              <dd>$4,300,000</dd>
-            </div>
-          </dl>
-        </article>
-      </li>
-    </ul>
+            <dl>
+              <div>
+                <dt>LENGTH</dt>
+                <dd>29m (96ft)</dd>
+              </div>
+              <div>
+                <dt>SHIPYARD</dt>
+                <dd>Ferretti</dd>
+              </div>
+              <div>
+                <dt>BUILT</dt>
+                <dd>2014</dd>
+              </div>
+              <div>
+                <dt>GUESTS</dt>
+                <dd>10 in 5 cabins</dd>
+              </div>
+              <div>
+                <dt>PRICE</dt>
+                <dd>$4,300,000</dd>
+              </div>
+            </dl>
+          </article>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 
       <section class="services">
-  <div>
+  <div class="container services-container">
     <h2 class="visually-hidden">Yaht Adventures</h2>
-    <ul>
-      <li>
+    <div class="services-gallery">
+      <div>
         <img
+          class="services-img"
           src="/yacht-adventures/assets/services-diving-B6AsPpw-.jpg"
           alt="Diving"
           width="712"
           height="632"
         />
-        <p>Diving</p>
-      </li>
-      <li>
+        <p class="services-text">Diving</p>
+      </div>
+      <div>
         <img
+          class="services-img"
           src="/yacht-adventures/assets/services-fishing-CmOuIfQf.jpg"
           alt="Fishing"
           width="440"
           height="428"
         />
-        <p>Fishing</p>
-      </li>
-      <li>
-        <img
-          src="/yacht-adventures/assets/services-sunbathing-Dwivcp4U.jpg"
-          alt="Sunbathing"
-          width="436"
-          height="352"
-        />
-        <p>Sunbathing</p>
-      </li>
-    </ul>
+        <p class="services-text">Fishing</p>
+      </div>
+    </div>
+    <div class="services-picture">
+      <img
+        class="services-img"
+        src="/yacht-adventures/assets/services-sunbathing-Dwivcp4U.jpg"
+        alt="Sunbathing"
+        width="436"
+        height="352"
+      />
+      <p class="services-text">Sunbathing</p>
+    </div>
   </div>
 </section>
 
-      <section>
-  <div>
-    <div>
-      <h2 class="title">Rent a yacht now</h2>
+      <section class="rent">
+  <div class="rent-container container">
+    <div class="rent-content">
+      <h2 class="title rent-title">Rent a yacht now</h2>
       <img
         src="/yacht-adventures/assets/rent-yaht-D2mRw4S5.jpg"
         alt="Rent yaht"
@@ -501,7 +530,7 @@
         height="191"
       />
     </div>
-    <div>
+    <div class="rent-form">
       <form>
         <input type="text" placeholder="Full Name" />
         <input type="email" placeholder="Email" />
@@ -516,11 +545,11 @@
       <section class="reviews">
   <div class="container">
     <div class="reviews-text">
-      <h3 class="subtitle">
+      <h3 class="reviews-title subtitle">
         <span class="reviews-text-accent">Yacht Adventures</span> take pride in
         providing the best possible service and experience to our customers
       </h3>
-      <p>
+      <p class="reviews-par">
         Our customers have enjoyed unforgettable moments on our yachts. Don't
         just take our word for it - read on to find out what they have to say
         about their journey with us.
@@ -529,7 +558,11 @@
     <div>
       <ul class="reviews-list">
         <li class="reviews-item">
-          <img src="/yacht-adventures/assets/review-first-CoooaL76.png" alt="John Wax" />
+          <img
+            class="reviews-item-img"
+            src="/yacht-adventures/assets/review-first-CoooaL76.png"
+            alt="John Wax"
+          />
           <h4 class="reviews-item-name">John Wax</h4>
           <p class="reviews-item-desc">
             I rented the Lagoon 620 with my family for a week-long vacation and
@@ -538,7 +571,11 @@
           </p>
         </li>
         <li class="reviews-item">
-          <img src="/yacht-adventures/assets/review-second-W66N2bnN.png" alt="" />
+          <img
+            class="reviews-item-img"
+            src="/yacht-adventures/assets/review-second-W66N2bnN.png"
+            alt=""
+          />
           <h4 class="reviews-item-name">Victoria Romashenko</h4>
           <p class="reviews-item-desc">
             The Sunseeker Manhattan 66 was the perfect choice for our romantic
@@ -547,7 +584,11 @@
           </p>
         </li>
         <li class="reviews-item">
-          <img src="/yacht-adventures/assets/review-third-DVu64aZg.png" alt="" />
+          <img
+            class="reviews-item-img"
+            src="/yacht-adventures/assets/review-third-DVu64aZg.png"
+            alt=""
+          />
           <h4 class="reviews-item-name">Ihor Trachuk</h4>
           <p class="reviews-item-desc">
             The Azimut 80 was the most luxurious yacht I've ever been on. The
@@ -557,8 +598,8 @@
         </li>
       </ul>
     </div>
+    <a class="reviews-goup-link" href="">Go up</a>
   </div>
-  <a class="reviews-goup-link" href="">Go up</a>
 </section>
 
     </main>
