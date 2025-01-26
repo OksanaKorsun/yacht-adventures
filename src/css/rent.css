@@ -1,0 +1,15 @@
+.rent {
+  padding-top: 164px;
+}
+.rent-container {
+  display: flex;
+  flex-direction: row;
+}
+/* .rent-content {
+} */
+.rent-title {
+  margin-bottom: 64px;
+}
+
+/* .rent-form {
+} */

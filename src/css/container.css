@@ -1,19 +1,27 @@
 /* Styles for Mobile devices */
-.container {
+/* .container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
   padding: 0 16px;
-}
+} */
 /* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
-}
+} */
 /* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
+} */
+.container {
+  width: 1280px;
+  padding: 0 32px;
+  margin: 0 auto;
+
+  outline: 2px dashed #f44336;
+  outline-offset: -2px;
 }

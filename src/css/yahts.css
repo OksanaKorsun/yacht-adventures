@@ -1,7 +1,25 @@
 /* .yahts {
+} */
+.yahts-rental {
+  width: 882px;
+  margin: 0 auto;
+  margin-bottom: 164px;
+}
+.yahts-title {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 64px;
 }
 .yahts-btn {
-} */
+  min-width: 154px;
+}
+.yahts-btn:hover,
+.yahts-btn:focus {
+  color: var(--accent-bg-color);
+  border-color: var(--accent-bg-color);
+}
 /* .swiper {
 }
 .swiper-button-prev {
@@ -12,8 +30,39 @@
 }
 .swiper-slide {
 } */
-/* .yahts-heading {
+/* .yahts-cards {
+  margin: 0 auto;
 } */
+.yahts-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1094px;
+  gap: 16px;
+}
+.yahts-item {
+  width: 354px;
+  border-radius: 24px;
+  background-color: var(--secondary-bg-color);
+}
+.yahts-thumb {
+  padding: 16px;
+  padding-bottom: 0;
+}
+.yahts-card-img {
+  border-radius: 24px;
+  width: 322px;
+  height: 268px;
+}
+.yahts-card-content {
+  padding: 32px;
+}
+.yahts-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
 .yahts-name {
   font-size: 16px;
   font-weight: 700;
@@ -28,19 +77,27 @@
   text-transform: uppercase;
   opacity: 0.5;
 }
-/* .yahts-detail-list {
-} */
-/* .yahts-info {
-  
-} */
+.yahts-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.yahts-info {
+  display: flex;
+  gap: 32px;
+}
 .yahts-detail-term {
   font-size: 14px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  /* min-width: 58px; */
+  min-width: 67px;
 }
+
 .yahts-detail-data {
   font-size: 14px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin: 0;
 }

@@ -5,11 +5,10 @@
   --main-text-color: #f6f5ef;
   --secondary-text-color: #11131f;
   --accent-text-color: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
-  --transparent-text-color: rgba(246, 245, 239, 0.5);
 
   /* Background color */
-  --secondary-bg-color: #1f212d;
   --main-bg-color: #11131f;
+  --secondary-bg-color: #1f212d;
   --button-bg-color: #93abae;
   --accent-bg-color: #88b3b9;
   /* Others */
@@ -37,11 +36,12 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .title {
   font-weight: 500;
   font-size: 60px;
   line-height: 1.1;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.06em;
 }
 .subtitle {
   font-weight: 500;
@@ -55,6 +55,10 @@ body {
   font-size: 18px;
   line-height: 1.1;
   letter-spacing: -0.04em;
+  border-radius: 60px;
+  padding: 13px 27px;
+  border: 1px solid var(--main-text-color);
+  min-height: 48px;
 }
 /* .logo-text {
   font-size: 18px;
