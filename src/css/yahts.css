@@ -31,7 +31,7 @@
 .swiper-slide {
 } */
 /* .yahts-cards {
-  margin: 0 auto;
+  
 } */
 .yahts-list {
   display: flex;
@@ -42,7 +42,6 @@
 }
 .yahts-item {
   width: 354px;
-  /* min-height: 508px; */
   border-radius: 24px;
   background-color: var(--secondary-bg-color);
 }
@@ -78,12 +77,7 @@
   text-transform: uppercase;
   opacity: 0.5;
 }
-.yahts-detail-list:not(:last-child) {
-  /* display: flex;
-  flex-direction: column;
-  gap: 6px; */
-  /* margin-bottom: 6px; */
-}
+
 .yahts-info-item {
   font-size: 14px;
   line-height: 1.18;
@@ -97,7 +91,6 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* min-width: 58px; */
   display: inline-block;
   min-width: 67px;
   margin-right: 32px;

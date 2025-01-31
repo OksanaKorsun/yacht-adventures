@@ -1,12 +1,22 @@
 .hero {
   padding-top: 64px;
 }
+
 .hero-container {
   display: flex;
   justify-content: space-between;
 }
 /* .hero-left-content {
+  color: var(--secondary-text-color);
 } */
+.hero-clients {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  /* color: var(--secondary-text-color); */
+}
 .hero-left-digit {
   font-size: 60px;
   line-height: 1.1;
@@ -53,6 +63,6 @@
 }
 .hero-right-btn2:hover,
 .hero-right-btn2:focus {
-  color: var(--accent-bg-color);
-  border-color: var(--accent-bg-color);
+  color: var(--button-bg-color);
+  border-color: var(--button-bg-color);
 }

@@ -2,7 +2,18 @@
   padding-top: 64px;
 }
 .footer-container {
-  border-top: 1px solid rgba(246, 245, 239, 0.2);
+  position: relative;
+  padding-top: 64px;
+}
+.footer-container::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 32px;
+  right: 32px;
+  height: 1px;
+  background-color: rgba(246, 245, 239, 0.2);
 }
 .footer-wraper {
   display: flex;
@@ -52,6 +63,9 @@
 /* .footer-social-item {
 } */
 /* .footer-social-link {
+} */
+/* .footer-social-icon {
+  stroke: greenyellow;
 } */
 .footer-privacy {
   display: flex;
