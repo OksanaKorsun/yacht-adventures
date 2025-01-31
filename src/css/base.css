@@ -27,7 +27,7 @@ body {
 
   background-repeat: no-repeat;
   background-position: 0 226px;
-  background-size: auto;
+  background-size: contain;
   /* filter: blur(200px); */
 }
 /* body::before {

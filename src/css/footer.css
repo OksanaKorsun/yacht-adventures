@@ -48,6 +48,7 @@
   text-transform: uppercase;
 }
 /* .footer-nav-link {
+  
 } */
 .footer-social {
   font-weight: 700;
@@ -63,10 +64,22 @@
 /* .footer-social-item {
 } */
 /* .footer-social-link {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid rgba(246, 245, 239, 0.5);
 } */
-/* .footer-social-icon {
-  stroke: greenyellow;
-} */
+.footer-social-icon {
+  /* stroke: var(--main-text-color); */
+  /* stroke-opacity: 0.5; */
+}
+.footer-social-link:hover .footer-social-icon {
+  fill: teal;
+}
 .footer-privacy {
   display: flex;
   justify-content: center;
