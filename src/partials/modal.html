@@ -1,27 +1,27 @@
 <section class="modal">
-  <div class="container">
+  <div class="container modal-container">
     <button class="modal-btn" type="button">
-      <img
-        src="/img/modal/close-button.svg"
-        alt="close"
-        width="24"
-        height="24"
-      />
+      <svg class="modal-btn-icon" width="24" height="24">
+        <use href="/img/sprite.svg#close"></use>
+      </svg>
     </button>
     <div>
       <img
-        src="/img/modal/modal-yaht.jpg"
+        class="modal-img"
+        src="/img/modal/modal-yaht.png"
         alt="Yaht"
         width="338"
         height="198"
       />
-      <h3 class="subtitle">Thank you</h3>
-      <p>
-        Thank you for choosing Yacht Adventures, your booking details have been
-        received and our team will be in touch shortly to confirm your
-        reservation and provide any additional information or assistance you may
-        need.
-      </p>
+      <div class="modal-info">
+        <h3 class="subtitle">Thank you</h3>
+        <p class="modal-text">
+          Thank you for choosing Yacht Adventures, your booking details have
+          been received and our team will be in touch shortly to confirm your
+          reservation and provide any additional information or assistance you
+          may need.
+        </p>
+      </div>
     </div>
   </div>
 </section>

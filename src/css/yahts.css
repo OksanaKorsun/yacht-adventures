@@ -15,11 +15,14 @@
 .yahts-btn {
   min-width: 154px;
 }
-.yahts-btn:hover,
-.yahts-btn:focus {
-  color: var(--button-bg-color);
-  border-color: var(--button-bg-color);
+
+.swiper-button-prev:hover .swiper-icon,
+.swiper-button-prev:focus .swiper-icon,
+.swiper-button-next:hover .swiper-icon,
+.swiper-button-next:focus .swiper-icon {
+  --color1: var(--button-bg-color);
 }
+
 /* .swiper {
 }
 .swiper-button-prev {

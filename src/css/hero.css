@@ -50,6 +50,7 @@
 }
 .hero-right-btn1 {
   background-color: var(--button-bg-color);
+  color: var(--main-text-color);
   border: none;
   min-width: 152px;
   padding: 14px 28px;
@@ -57,6 +58,7 @@
 .hero-right-btn1:hover,
 .hero-right-btn1:focus {
   background-color: var(--accent-bg-color);
+  color: var(--main-text-color);
 }
 .hero-right-btn2 {
   min-width: 118px;
