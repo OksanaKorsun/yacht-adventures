@@ -46,5 +46,13 @@
   text-align: center;
   opacity: 0.5;
 }
-/* .reviews-goup-link {
-} */
+.reviews-goup-btn {
+  display: block;
+  margin-left: auto;
+  padding: 19px 26px;
+  width: 68px;
+  height: 68px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--button-bg-color);
+}

@@ -97,6 +97,20 @@ body::after {
   border: 1px solid var(--main-text-color);
   min-height: 48px;
 }
+.btn:hover,
+.btn.focus {
+  color: var(--button-bg-color);
+  border-color: var(--button-bg-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.logo:hover,
+.logo:focus {
+  background: var(--accent-text-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* .logo-text {
   font-size: 18px;
   font-weight: 700;

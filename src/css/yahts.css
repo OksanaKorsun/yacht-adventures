@@ -17,8 +17,8 @@
 }
 .yahts-btn:hover,
 .yahts-btn:focus {
-  color: var(--accent-bg-color);
-  border-color: var(--accent-bg-color);
+  color: var(--button-bg-color);
+  border-color: var(--button-bg-color);
 }
 /* .swiper {
 }
