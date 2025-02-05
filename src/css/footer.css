@@ -83,6 +83,18 @@
 /* .footer-social-link:hover {
   border-color: teal;
 } */
+.footer-social-icon.hover {
+  display: none;
+}
+
+.footer-social-link:hover .default {
+  display: none;
+}
+
+.footer-social-link:hover .hover {
+  display: block;
+}
+
 .footer-privacy {
   display: flex;
   justify-content: center;
