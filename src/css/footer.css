@@ -93,6 +93,7 @@
 
 .footer-social-link:hover .hover {
   display: block;
+  fill: transparent;
 }
 
 .footer-privacy {
