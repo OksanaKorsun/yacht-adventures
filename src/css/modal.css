@@ -1,20 +1,23 @@
 /* .modal {
 } */
 .modal-container {
+  position: relative;
   width: 570px;
   border-radius: 40px;
   background-color: var(--secondary-bg-color);
-  padding-top: 32px;
+  padding-top: 97px;
   padding-left: 64px;
   padding-right: 64px;
   padding-bottom: 64px;
 }
 .modal-btn {
+  position: absolute;
+  top: 32px;
+  right: 32px;
   display: block;
   margin-left: auto;
   border: none;
   background-color: transparent;
-  margin-bottom: 41px;
 }
 .modal-btn:hover .modal-btn-icon,
 .modal-btn:focus .modal-btn-icon {
@@ -27,4 +30,5 @@
 .modal-text {
   max-width: 442px;
   margin-top: 16px;
+  margin-bottom: 0;
 }

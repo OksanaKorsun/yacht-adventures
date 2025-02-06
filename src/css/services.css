@@ -14,13 +14,22 @@
   align-items: flex-end;
   margin-bottom: 64px;
 }
-.services-picture {
+.services-thumb {
+  position: relative;
+  display: inline-block;
+}
+
+.services-thumb:nth-child(3) {
   margin-left: 340px;
 }
 .services-img {
   border-radius: 40px;
 }
 .services-text {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  margin: 0;
   display: inline-block;
   font-weight: 700;
   font-size: 18px;
