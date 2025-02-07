@@ -8,12 +8,21 @@
 }
 .hero-left-content {
   position: relative;
+  /* width: 426px;
+  height: 598px; */
+
+  /* background-image: url(/img/hero/hero-mask.svg); */
+
   color: var(--secondary-text-color);
 }
-.hero-left-mask {
+/* .hero-left-mask {
   position: absolute;
   top: 0;
   left: 0;
+} */
+.hero-left-content:hover .hero-left-mask,
+.hero-left-content:focus .hero-left-mask {
+  transform: rotate(-180deg);
 }
 .hero-clients-img:nth-child(2) {
   position: absolute;

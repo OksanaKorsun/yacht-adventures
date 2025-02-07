@@ -20,6 +20,9 @@
 .reviews-par {
   max-width: 273px;
 }
+.reviews-cards {
+  margin-bottom: 64px;
+}
 .reviews-list {
   display: flex;
   gap: 32px;
