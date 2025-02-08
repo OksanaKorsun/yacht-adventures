@@ -58,6 +58,7 @@
   border: none;
   border-radius: 8px;
   background-color: var(--button-bg-color);
+  transition: background-color var(--anim-fast);
 }
 .reviews-goup-btn:hover,
 .reviews-goup-btn:focus {

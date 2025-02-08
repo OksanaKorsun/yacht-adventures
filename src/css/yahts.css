@@ -17,27 +17,17 @@
   min-width: 154px;
 }
 
-.swiper-button-prev:hover .swiper-icon,
-.swiper-button-prev:focus .swiper-icon,
-.swiper-button-next:hover .swiper-icon,
-.swiper-button-next:focus .swiper-icon {
-  --color1: var(--button-bg-color);
-}
-
 /* .swiper {
-}
-.swiper-button-prev {
-}
-.swiper-button-next {
 }
 .swiper-wrapper {
 }
 .swiper-slide {
 } */
-/* .yahts-cards {
-  
-} */
+.yahts-cards {
+  position: relative;
+}
 .yahts-list {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -105,4 +95,35 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
   margin: 0;
+}
+.swiper-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 60px;
+  border: 1px solid var(--main-text-color);
+  transition: border-color var(--anim-fast);
+}
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.swiper-button:hover,
+.swiper-button:focus {
+  border-color: var(--button-bg-color);
+}
+.swiper-button:hover .swiper-icon,
+.swiper-button:focus .swiper-icon,
+.swiper-button:hover .swiper-icon,
+.swiper-button:focus .swiper-icon {
+  --color1: var(--button-bg-color);
 }

@@ -12,10 +12,14 @@
   --button-bg-color: #93abae;
   --accent-bg-color: #88b3b9;
   /* Others */
+
   /* Animation */
-  --anim-superfast: 150ms ease-in;
-  --anim-fast: 300ms ease-in;
-  --anim-slow: 800ms ease;
+  /* --anim-superfast: 150ms ease-in;
+  --anim-fast: 300ms ease-in; */
+  /* --anim-superfast: 150ms cubic-bezier(0.4, 0, 0.2, 1); */
+  --anim-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --anim-slow: 1000ms ease-in-out;
+  /* --anim-fas2: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 html {
   scroll-behavior: smooth;
@@ -100,13 +104,53 @@ body::after {
   border-radius: 60px;
   padding: 13px 27px;
   border: 1px solid var(--main-text-color);
-  min-height: 48px;
+  transition: color var(--anim-fast), border-color var(--anim-fast);
 }
 .btn:hover,
-.btn.focus {
+.btn:focus {
   color: var(--button-bg-color);
   border-color: var(--button-bg-color);
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.logo-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.nav-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  padding: 32px 0;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .logo:hover,
@@ -116,10 +160,3 @@ body::after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* .logo-text {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-} */

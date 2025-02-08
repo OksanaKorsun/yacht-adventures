@@ -8,18 +8,11 @@
 }
 .hero-left-content {
   position: relative;
-  /* width: 426px;
-  height: 598px; */
-
-  /* background-image: url(/img/hero/hero-mask.svg); */
-
   color: var(--secondary-text-color);
 }
-/* .hero-left-mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
+.hero-left-mask {
+  transition: transform var(--anim-slow);
+}
 .hero-left-content:hover .hero-left-mask,
 .hero-left-content:focus .hero-left-mask {
   transform: rotate(-180deg);
@@ -51,7 +44,6 @@
   line-height: 1.1;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  /* color: var(--secondary-text-color); */
 }
 .hero-owner-img {
   position: absolute;
@@ -109,6 +101,7 @@
   border: none;
   min-width: 152px;
   padding: 14px 28px;
+  transition: background-color var(--anim-fast), color var(--anim-fast);
 }
 .hero-right-btn1:hover,
 .hero-right-btn1:focus {
@@ -117,6 +110,7 @@
 }
 .hero-right-btn2 {
   min-width: 118px;
+  transition: color var(--anim-fast), border-color var(--anim-fast);
 }
 .hero-right-btn2:hover,
 .hero-right-btn2:focus {
