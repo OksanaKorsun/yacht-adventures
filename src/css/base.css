@@ -33,9 +33,8 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
   background-image: url(../img/bg/mask-group.svg);
-
   background-repeat: no-repeat;
-  background-position: 0 226px;
+  /* background-position: 0 226px; */
   background-size: contain;
   /* filter: blur(200px); */
 }
