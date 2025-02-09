@@ -16,8 +16,8 @@
   /* Animation */
   /* --anim-superfast: 150ms ease-in;
   --anim-fast: 300ms ease-in; */
-  /* --anim-superfast: 150ms cubic-bezier(0.4, 0, 0.2, 1); */
-  --anim-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --anim-superfast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --anim-fast: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   --anim-slow: 1000ms ease-in-out;
   /* --anim-fas2: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }

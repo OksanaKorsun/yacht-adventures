@@ -1,5 +1,5 @@
 .rent {
-  padding-top: 164px;
+  padding-bottom: 164px;
 }
 .rent-container {
   display: flex;
@@ -19,6 +19,20 @@
   align-items: center;
   gap: 16px;
   padding: 14px 28px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+  border-radius: 60px;
+  border: 1px solid var(--main-text-color);
+  transition: border-color var(--anim-fast), color var(--anim-fast);
+  transition-duration: 100ms;
+}
+.rent-form-btn:hover,
+.rent-form-btn:focus {
+  color: var(--button-bg-color);
+  border-color: var(--button-bg-color);
 }
 .rent-form-btn:hover .rent-btn-icon,
 .rent-form-btn:focus .rent-btn-icon {

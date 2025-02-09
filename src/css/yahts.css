@@ -1,6 +1,8 @@
 .yahts {
   margin-top: -122px;
+  padding-bottom: 164px;
 }
+
 .yahts-rental {
   width: 882px;
   margin: 0 auto;
@@ -106,6 +108,7 @@
   border-radius: 60px;
   border: 1px solid var(--main-text-color);
   transition: border-color var(--anim-fast);
+  transition-duration: 100ms;
 }
 .prev {
   position: absolute;
