@@ -1,39 +1,38 @@
-// const swiper = new Swiper('.swiper', {
-//   direction: 'horizontal',
-//   loop: true,
-//   slidesPerView: 'auto',
-//   spaceBetween: 18,
-//   slidesPerGroup: 1,
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-// });
 
-// const swiper = new Swiper('.swiper', {
-//       slidesPerView: 3, 
-//       spaceBetween: 16, 
-//       loop: true, 
-//       navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
+// document.addEventListener("DOMContentLoaded", function () {
+//     const swiper = new Swiper(".swiper", {
+//     slidesPerView: 3, 
+//     spaceBetween: 16,
+//     direction: "horizontal",
+//     loop: true,
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//     breakpoints: {
+//       375: {
+//         slidesPerView: 1,
+//         spaceBetween: 20,
 //       },
-//       pagination: {
-//         el: '.swiper-pagination',
-//         clickable: true,
+//       768: {
+//         slidesPerView: 2,
+//         spaceBetween: 16,
 //       },
-//       breakpoints: {
-//         1280: {
-//           slidesPerView: 3, 
-//           spaceBetween: 16, 
-//         },
-//         768: {
-//           slidesPerView: 2, 
+//       1280: {
+//           slidesPerView: 3,
 //           spaceBetween: 16,
-//         },
-//         375: {
-//           slidesPerView: 1, 
-//           spaceBetween: 10,
-//         },
 //       },
-//     });
+//     },
+//   });
+// });
+window.onload = function() {
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: 16,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // loop: true,
+  });
+};
