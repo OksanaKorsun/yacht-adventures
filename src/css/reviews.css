@@ -1,5 +1,5 @@
 .reviews {
-  padding-bottom: 32px;
+  padding-bottom: 164px;
 }
 .reviews-text {
   display: flex;
@@ -19,9 +19,8 @@
 .reviews-par {
   max-width: 273px;
 }
-.reviews-cards {
-  margin-bottom: 64px;
-}
+/* .reviews-cards {
+} */
 .reviews-list {
   display: flex;
   gap: 32px;
@@ -49,6 +48,9 @@
   opacity: 0.5;
 }
 .reviews-goup-btn {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
   display: block;
   margin-left: auto;
   padding: 19px 26px;
@@ -57,7 +59,14 @@
   border: none;
   border-radius: 8px;
   background-color: var(--button-bg-color);
-  transition: background-color var(--anim-fast);
+  visibility: hidden;
+  opacity: 0;
+  transition: background-color var(--anim-fast), visibility var(--anim-fast),
+    opacity var(--anim-fast);
+}
+.reviews-goup-btn.active {
+  visibility: visible;
+  opacity: 1;
 }
 .reviews-goup-btn:hover,
 .reviews-goup-btn:focus {
