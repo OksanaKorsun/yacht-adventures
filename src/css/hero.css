@@ -9,28 +9,28 @@
 }
 .hero-left-content {
   position: relative;
+}
+.hero-image-container {
+  width: 426px;
+  height: 598px;
+  background-image: url(../img/hero/group.png);
+  background-repeat: no-repeat;
   color: var(--secondary-text-color);
+  perspective: 1000px;
 }
-.hero-left-mask {
-  transition: transform var(--anim-slow);
-}
-.hero-left-content:hover .hero-left-mask,
-.hero-left-content:focus .hero-left-mask {
-  transform: rotate(-180deg);
-}
-.hero-clients-img:nth-child(2) {
+.hero-clients-img:nth-child(1) {
   position: absolute;
   top: 32px;
   left: 32px;
   z-index: 3;
 }
-.hero-clients-img:nth-child(3) {
+.hero-clients-img:nth-child(2) {
   position: absolute;
   top: 32px;
   left: 77px;
   z-index: 2;
 }
-.hero-clients-img:nth-child(4) {
+.hero-clients-img:nth-child(3) {
   position: absolute;
   top: 32px;
   left: 125px;
@@ -50,6 +50,7 @@
   position: absolute;
   top: 32px;
   left: 305px;
+  /* transform: translateZ(60px); */
 }
 .hero-yacht-img {
   position: absolute;

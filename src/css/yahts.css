@@ -57,6 +57,11 @@
   border-radius: 24px;
   width: 322px;
   height: 268px;
+  transition: transform var(--anim-fast), filter var(--anim-fast);
+}
+.swiper-slide:hover .yahts-card-img {
+  transform: scale(1.1);
+  filter: brightness(1.4);
 }
 .yahts-card-content {
   padding: 32px;

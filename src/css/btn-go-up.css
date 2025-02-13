@@ -1,0 +1,30 @@
+.btn-go-up {
+  position: fixed;
+  z-index: 10;
+  right: 32px;
+  bottom: 32px;
+  display: block;
+  margin-left: auto;
+  padding: 19px 26px;
+  width: 68px;
+  height: 68px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--button-bg-color);
+  visibility: hidden;
+  opacity: 0;
+  /* animation: animate125 2000ms linear infinite alternate; */
+  -webkit-animation: vibrate 0.3s linear infinite both;
+  animation: vibrate 0.3s linear infinite both;
+  transition: background-color var(--anim-fast), visibility var(--anim-fast),
+    opacity var(--anim-fast);
+}
+.btn-go-up.active {
+  visibility: visible;
+  opacity: 1;
+}
+.btn-go-up:hover,
+.btn-go-up:focus {
+  background-color: var(--accent-bg-color);
+  animation-play-state: paused;
+}
