@@ -138,13 +138,16 @@
   opacity: 0;
 }
 
-.swiper-button-prev:hover,
+/* .swiper-button-prev:hover,
 .swiper-button-prev:focus,
 .swiper-button-next:hover,
 .swiper-button-next:focus {
   border-color: var(--button-bg-color);
+} */
+:where(.swiper-button-prev, .swiper-button-next):hover,
+:where(.swiper-button-prev, .swiper-button-next):focus {
+  border-color: var(--button-bg-color);
 }
-
 .swiper-icon {
   position: absolute;
   top: 50%;
@@ -153,9 +156,13 @@
   max-width: 18px;
   max-height: 8.66px;
 }
-.swiper-button-prev:hover .swiper-icon,
+/* .swiper-button-prev:hover .swiper-icon,
 .swiper-button-prev:focus .swiper-icon,
 .swiper-button-next:hover .swiper-icon,
 .swiper-button-next:focus .swiper-icon {
+  --color1: var(--button-bg-color);
+} */
+:where(.swiper-button-prev, .swiper-button-next):hover .swiper-icon,
+:where(.swiper-button-prev, .swiper-button-next):focus .swiper-icon {
   --color1: var(--button-bg-color);
 }

@@ -150,10 +150,17 @@ body::after {
   padding: 32px 0;
 }
 
-.nav-link:hover,
+/* .nav-link:hover,
 .nav-link:focus,
 .logo:hover,
 .logo:focus {
+  background: var(--accent-text-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+:where(.nav-link, .logo):hover,
+:where(.nav-link, .logo):focus {
   background: var(--accent-text-color);
   background-clip: text;
   -webkit-background-clip: text;

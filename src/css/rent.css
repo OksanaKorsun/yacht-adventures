@@ -17,46 +17,74 @@
 .rent-form {
   width: 443px;
 }
-.form-label {
+.rent-form-field {
+  position: relative;
   display: block;
-  /* font-weight: 500; */
-  line-height: 1.2;
-  letter-spacing: -0.04em;
   margin-bottom: 28px;
-  transition: color var(--anim-fast);
 }
-.form-input {
+.rent-form-field.comment {
+  margin-bottom: 0;
+}
+.rent-form-input {
   width: 100%;
-  height: 18px;
-  padding-left: 5px;
-  padding-right: 5px;
+  height: 35px;
+  padding: 0 2px;
   background-color: transparent;
-  outline: none;
   border: none;
+  outline: transparent;
   border-bottom: 1px solid var(--main-text-color);
   color: var(--main-text-color);
 }
-.form-input::placeholder {
+.rent-form-input:focus,
+.rent-form-comment:focus {
+  outline: 1px solid var(--main-text-color);
+}
+.rent-form-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  transform-origin: left center;
+  transition: color var(--anim-fast), transform var(--anim-fast);
+}
+.rent-form-input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  -webkit-text-fill-color: var(--main-text-color) !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+.rent-form-input:focus + .rent-form-tag,
+.rent-form-input:not(:placeholder-shown) + .rent-form-tag,
+.rent-form-comment:focus + .rent-form-tag,
+.rent-form-comment:not(:placeholder-shown) + .rent-form-tag {
+  transform: translateY(-100%) scale(0.8);
+  color: var(--button-bg-color);
+}
+.rent-form-input::placeholder {
   opacity: 0;
   transition: opacity var(--anim-fast);
 }
-.form-input:focus::placeholder {
+.rent-form-input:focus::placeholder {
   opacity: 1;
+  transition-delay: 300ms;
 }
-.user-comment {
+.rent-form-comment {
   width: 100%;
-  height: 58px;
-  padding-left: 5px;
-  padding-right: 5px;
+  height: 77px;
+  padding: 5px 2px;
   background-color: inherit;
   border: none;
   border-bottom: 1px solid var(--main-text-color);
   color: var(--main-text-color);
-  outline: none;
+  outline: transparent;
   resize: none;
-  margin-bottom: 54px;
+  margin-bottom: 64px;
+  transition: color var(--anim-fast), transform var(--anim-fast);
 }
-.form-label:focus-within {
+.rent-form-comment:focus + .rent-form-tag {
+  transform: translateY(-100%) scale(0.8);
   color: var(--button-bg-color);
 }
 .rent-form-btn {
@@ -64,6 +92,7 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
+  height: 48px;
   padding: 14px 28px;
   background-color: transparent;
   font-weight: 700;
