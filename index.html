@@ -20,6 +20,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Inputmask styles -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/inputmask@5.0.9/dist/colormask.min.css"
+      rel="stylesheet"
+    /> -->
     <!-- Swiper styles -->
     <link
       rel="stylesheet"
@@ -28,7 +33,7 @@
     <!-- Custom styles -->
 
     <script type="module" crossorigin src="/yacht-adventures/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/yacht-adventures/assets/index-CoCh6l3l.css">
+    <link rel="stylesheet" crossorigin href="/yacht-adventures/assets/index-CVCEykcY.css">
   </head>
   <body>
     <header class="header">
@@ -582,41 +587,50 @@
       />
     </div>
 
-    <form class="rent-form" name="rent_form" id="rent-form" autocomplete="on">
-      <label class="form-label"
-        >Full Name
+    <form
+      class="rent-form"
+      name="rent_form"
+      id="rent-form"
+      autocomplete="on"
+      method="post"
+    >
+      <label class="rent-form-field">
         <input
-          class="form-input"
+          class="rent-form-input"
           type="text"
           name="username"
           placeholder="Oksana"
+          required
         />
+        <span class="rent-form-tag">Full Name</span>
       </label>
 
-      <label class="form-label"
-        >Email<input
-          class="form-input"
+      <label class="rent-form-field"
+        ><input
+          class="rent-form-input"
           type="email"
           name="email"
           placeholder="example@gmail.com"
-      /></label>
+          required
+        /><span class="rent-form-tag">Email</span></label
+      >
 
-      <label class="form-label"
-        >Phone number
+      <label class="rent-form-field">
         <input
-          class="form-input"
+          class="rent-form-input"
           type="tel"
           name="phone"
           placeholder="+380935432119"
-        />
+          required
+        /><span class="rent-form-tag">Phone number</span>
       </label>
-      <label class="form-label"
-        >Comment
+      <label class="rent-form-field comment">
         <textarea
-          class="user-comment"
-          id="user-comment"
+          class="rent-form-comment"
           name="comment"
+          placeholder="&nbsp;"
         ></textarea>
+        <span class="rent-form-tag">Comment</span>
       </label>
       <button class="rent-form-btn" type="submit" data-modal-open>
         Send
@@ -815,6 +829,10 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
+    <!-- Mask for input -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.9/dist/jquery.inputmask.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
   </body>
