@@ -23,6 +23,8 @@
           type="text"
           name="username"
           placeholder="Oksana"
+          pattern="^[A-Za-z]{2,}(-[A-Za-z]{2,})?$"
+          title="Enter a name with at least 2 latin letters"
           required
         />
         <span class="rent-form-tag">Full Name</span>
@@ -34,6 +36,8 @@
           type="email"
           name="email"
           placeholder="example@gmail.com"
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          title="Enter a valid email address"
           required
         /><span class="rent-form-tag">Email</span></label
       >
@@ -44,6 +48,8 @@
           type="tel"
           name="phone"
           placeholder="+380935432119"
+          pattern="^(\+?380|0)\d{9}$"
+          title="Enter a valid phone number"
           required
         /><span class="rent-form-tag">Phone number</span>
       </label>

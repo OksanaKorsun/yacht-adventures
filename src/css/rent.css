@@ -28,16 +28,21 @@
 .rent-form-input {
   width: 100%;
   height: 35px;
-  padding: 0 2px;
+  padding: 0 5px;
   background-color: transparent;
   border: none;
   outline: transparent;
+  outline-offset: -1px;
   border-bottom: 1px solid var(--main-text-color);
   color: var(--main-text-color);
+  /* transition: border-radius var(--anim-fast); */
 }
 .rent-form-input:focus,
 .rent-form-comment:focus {
-  outline: 1px solid var(--main-text-color);
+  outline: 1.5px solid var(--button-bg-color);
+  border-radius: 14px;
+
+  /* box-shadow: 0 0 0 4px rgba(246, 245, 239, 0.25); */
 }
 .rent-form-tag {
   position: absolute;
@@ -73,12 +78,13 @@
 .rent-form-comment {
   width: 100%;
   height: 77px;
-  padding: 5px 2px;
+  padding: 5px 5px;
   background-color: inherit;
   border: none;
   border-bottom: 1px solid var(--main-text-color);
   color: var(--main-text-color);
   outline: transparent;
+  outline-offset: -1px;
   resize: none;
   margin-bottom: 64px;
   transition: color var(--anim-fast), transform var(--anim-fast);
@@ -103,6 +109,7 @@
   border: 1px solid var(--main-text-color);
   transition: border-color var(--anim-fast), color var(--anim-fast);
   transition-duration: 100ms;
+  outline: transparent;
 }
 .rent-form-btn:hover,
 .rent-form-btn:focus {
