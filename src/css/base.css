@@ -32,11 +32,15 @@ body {
   letter-spacing: -0.02em;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
-  background-image: url(../img/bg/mask-group.svg);
-  background-repeat: no-repeat;
-  /* background-position: 0 226px; */
-  background-size: contain;
   /* filter: blur(200px); */
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    /* background-image: url(/img/bg/mask-group.svg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: 0 226px; */
+  }
 }
 /* body::before {
   content: '';
@@ -84,20 +88,32 @@ body::after {
 
 .title {
   font-weight: 500;
-  font-size: 60px;
+  font-size: 36px;
+  letter-spacing: -0.04em;
+  color: #f6f5ef;
   line-height: 1.1;
-  letter-spacing: -0.06em;
+}
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 60px;
+    letter-spacing: -0.06em;
+  }
 }
 .subtitle {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.2;
   letter-spacing: -0.045em;
+}
+@media only screen and (min-width: 768px) {
+  .subtitle {
+    font-size: 32px;
+  }
 }
 .btn {
   background-color: transparent;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.1;
   letter-spacing: -0.045em;
   border-radius: 60px;
@@ -105,6 +121,12 @@ body::after {
   border: 1px solid var(--main-text-color);
   transition: color var(--anim-fast), border-color var(--anim-fast);
 }
+@media only screen and (min-width: 768px) {
+  .btn {
+    font-size: 18px;
+  }
+}
+
 .btn:hover,
 .btn:focus {
   color: var(--button-bg-color);
@@ -114,30 +136,35 @@ body::after {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.18;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-.logo-text {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
+  letter-spacing: 0.03em;
 
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .logo {
+    font-size: 18px;
+    /* letter-spacing: 0.02em; */
+  }
+}
 .nav {
   display: flex;
 }
 
 .nav-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  gap: 14px;
   align-items: center;
 }
-
+@media only screen and (min-width: 768px) {
+  .nav-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
 .nav-item {
   font-weight: 700;
   font-size: 14px;
@@ -146,8 +173,10 @@ body::after {
   text-transform: uppercase;
 }
 
-.nav-link {
-  padding: 32px 0;
+@media only screen and (min-width: 768px) {
+  .nav-link {
+    padding: 32px 0;
+  }
 }
 
 /* .nav-link:hover,
