@@ -26,17 +26,119 @@
 
     <ul class="about-gallery-list">
       <li class="about-gallery-item">
-        <img src="/img/about/about-yaht-1.png" alt="Second Yaht" />
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="
+              /img/about/yaht1_desk@1x.webp 1x,
+              /img/about/yaht1_desk@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1280px )"
+            srcset="
+              /img/about/yaht1_desk@1x.png 1x,
+              /img/about/yaht1_desk@2x.png 2x
+            "
+            type="image/png" />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/about/yaht1_tab@1x.webp 1x,
+              /img/about/yaht1_tab@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/about/yaht1_tab@1x.png 1x,
+              /img/about/yaht1_tab@2x.png 2x
+            "
+            type="image/png" />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /img/about/yaht1_mob@1x.webp 1x,
+              /img/about/yaht1_mob@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /img/about/yaht1_mob@1x.png 1x,
+              /img/about/yaht1_mob@2x.png 2x
+            "
+            type="image/png" />
+          <img
+            src="/img/about/yaht1_tab@1x.png"
+            alt="First Yaht"
+            width="704"
+            height="631"
+            loading="lazy"
+        /></picture>
       </li>
       <li class="about-gallery-item">
-        <img src="/img/about/about-yaht-2.png" alt="First Yaht" />
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/about/yaht2_tab@1x.webp 1x,
+              /img/about/yaht2_tab@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/about/yaht2_tab@1x.png 1x,
+              /img/about/yaht2_tab@2x.png 2x
+            "
+            type="image/png" />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /img/about/yaht2_mob@1x.webp 1x,
+              /img/about/yaht2_mob@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /img/about/yaht2_mob@1x.png 1x,
+              /img/about/yaht2_mob@2x.png 2x
+            "
+            type="image/png" />
+          <img
+            src="/img/about/yaht2_mob@1x.png"
+            alt="Second Yaht"
+            width="335"
+            height="289"
+            loading="lazy"
+        /></picture>
       </li>
       <li class="about-gallery-item">
-        <img
-          class="about-gradient"
-          src="/img/about/about-yaht-3.png"
-          alt="Third yaht"
-        />
+        <picture>
+          <source
+            srcset="
+              /img/about/yaht3_mob@1x.webp 1x,
+              /img/about/yaht3_mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              /img/about/yaht3_mob@1x.png 1x,
+              /img/about/yaht3_mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            src="/img/about/yaht3_mob@1x.png"
+            alt="Third yaht"
+            width="260"
+            height="244"
+            loading="lazy"
+          />
+        </picture>
       </li>
     </ul>
   </div>
