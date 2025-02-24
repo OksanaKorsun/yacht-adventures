@@ -29,32 +29,214 @@
         <div class="hero-clients-wraper">
           <ul class="hero-clients-list">
             <li class="hero-clients-item">
-              <img
-                class="hero-clients-img"
-                src="/img/hero/client-1.png"
-                alt="First client"
-              />
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /img/hero/client1_tab@1x.webp 1x,
+                    /img/hero/client1_tab@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /img/hero/client1_tab@1x.png 1x,
+                    /img/hero/client1_tab@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /img/hero/client1_mob@1x.webp 1x,
+                    /img/hero/client1_mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /img/hero/client1_mob@1x.png 1x,
+                    /img/hero/client1_mob@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <img
+                  class="hero-clients-img"
+                  src="/img/hero/client1_tab@1x.png"
+                  alt="First client"
+                  width="56"
+                  height="56"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="hero-clients-item">
-              <img
-                class="hero-clients-img"
-                src="/img/hero/client-2.png"
-                alt="Second client"
-              />
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /img/hero/client2_tab@1x.webp 1x,
+                    /img/hero/client2_tab@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /img/hero/client2_tab@1x.png 1x,
+                    /img/hero/client2_tab@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /img/hero/client2_mob@1x.webp 1x,
+                    /img/hero/client2_mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /img/hero/client2_mob@1x.png 1x,
+                    /img/hero/client2_mob@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <img
+                  class="hero-clients-img"
+                  src="/img/hero/client2_tab@1x.png"
+                  alt="Second client"
+                  width="56"
+                  height="56"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="hero-clients-item">
-              <img
-                class="hero-clients-img"
-                src="/img/hero/client-3.png"
-                alt="Third client"
-              />
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /img/hero/client3_tab@1x.webp 1x,
+                    /img/hero/client3_tab@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /img/hero/client3_tab@1x.png 1x,
+                    /img/hero/client3_tab@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /img/hero/client3_mob@1x.webp 1x,
+                    /img/hero/client3_mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /img/hero/client3_mob@1x.png 1x,
+                    /img/hero/client3_mob@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <img
+                  class="hero-clients-img"
+                  src="/img/hero/client3_tab@1x.png"
+                  alt="Third client"
+                  width="56"
+                  height="56"
+                  loading="lazy"
+                />
+              </picture>
             </li>
           </ul>
           <p class="hero-clients-text">Our Clients</p>
         </div>
 
-        <img class="hero-owner-img" src="/img/hero/man.png" alt="Owner" />
-        <img class="hero-yacht-img" src="/img/hero/yacht.png" alt="Yacht" />
+        <div class="hero-owner-wrapper">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/hero/ceo_tab@1x.webp 1x,
+                /img/hero/ceo_tab@2x.webp 2x
+              "
+              type="image/webp" />
+            <source
+              media="(min-width: 768px)"
+              srcset="/img/hero/ceo_tab@1x.png 1x, /img/hero/ceo_tab@2x.png 2x"
+              type="image/png" />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/hero/ceo_mob@1x.webp 1x,
+                /img/hero/ceo_mob@2x.webp 2x
+              "
+              type="image/webp" />
+            <source
+              media="(max-width: 767px)"
+              srcset="/img/hero/ceo_mob@1x.png 1x, /img/hero/ceo_mob@2x.png 2x"
+              type="image/png" />
+            <img
+              class="hero-owner-img"
+              src="/img/hero/ceo_tab@1x.png"
+              alt="Owner"
+              width="233"
+              height="233"
+              loading="lazy"
+          /></picture>
+        </div>
+        <div class="hero-yacht-wrapper">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/hero/yaht_tab@1x.webp 1x,
+                /img/hero/yaht_tab@2x.webp 2x
+              "
+              type="image/webp" />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/hero/yaht_tab@1x.png 1x,
+                /img/hero/yaht_tab@2x.png 2x
+              "
+              type="image/png" />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/hero/yaht_mob@1x.webp 1x,
+                /img/hero/yaht_mob@2x.webp 2x
+              "
+              type="image/webp" />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/hero/yaht_mob@1x.png 1x,
+                /img/hero/yaht_mob@2x.png 2x
+              "
+              type="image/png" />
+            <img
+              class="hero-yacht-img"
+              src="/img/hero/yaht_tab@1x.png"
+              alt="Yacht"
+              width="378"
+              height="221"
+              loading="lazy"
+          /></picture>
+        </div>
         <div class="hero-left-sign">
           <p class="hero-left-digit">$12M</p>
           <p class="hero-left-text">

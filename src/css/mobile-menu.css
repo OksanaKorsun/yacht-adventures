@@ -1,3 +1,7 @@
+body.menu-open {
+  overflow: auto;
+  position: relative;
+}
 .menu-container {
   position: fixed;
   top: 0;
@@ -48,10 +52,3 @@
   margin: 0;
   list-style: none;
 }
-
-/* .mobile-menu .nav-link {
-  display: block;
-  padding: 10px;
-
-  
-} */
