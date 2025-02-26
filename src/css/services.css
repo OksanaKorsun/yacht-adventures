@@ -1,43 +1,103 @@
 .services {
-  padding-bottom: 164px;
+  padding-bottom: 80px;
 }
-/* .services-container {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-  align-items: center;
-} */
+@media only screen and (min-width: 768px) {
+  .services {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .services {
+    padding-bottom: 164px;
+  }
+}
 
 .services-gallery {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 64px;
+  flex-direction: column;
+  gap: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .services-gallery {
+    gap: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .services-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 64px;
+  }
 }
 .services-thumb {
   position: relative;
   display: inline-block;
-}
-
-.services-thumb:nth-child(3) {
-  margin-left: 340px;
-}
-.services-img {
+  /* width: fit-content; */
+  width: 335px;
+  height: 335px;
   border-radius: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .services-thumb:nth-child(1) {
+    width: 704px;
+    height: 632px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .services-thumb:nth-child(2) {
+    margin-left: auto;
+    width: 400px;
+    height: 389px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .services-thumb:nth-child(3) {
+    width: 380px;
+    height: 352px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .services-thumb:nth-child(1) {
+    width: 712px;
+    height: 632px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .services-thumb:nth-child(2) {
+    margin-left: auto;
+    width: 440px;
+    height: 428px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .services-thumb:nth-child(3) {
+    width: 436px;
+    height: 352px;
+    margin-left: 340px;
+  }
+}
+
 .services-text {
   position: absolute;
-  left: 32px;
-  bottom: 32px;
-  margin: 0;
+  left: 24px;
+  bottom: 24px;
   display: inline-block;
+  margin: 0;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.1;
   letter-spacing: -0.04em;
   color: var(--secondary-text-color);
   background-color: var(--main-text-color);
   border-radius: 60px;
   padding: 14px 28px;
-  /* max-width: 148px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .services-text {
+    left: 32px;
+    bottom: 32px;
+    font-size: 18px;
+  }
 }
