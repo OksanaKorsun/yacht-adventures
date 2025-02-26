@@ -36,7 +36,7 @@ body {
 }
 @media only screen and (min-width: 1280px) {
   body {
-    /* background-image: url(/img/bg/mask-group.svg); */
+    background-image: url(/img/bg/mask-group.svg);
     background-repeat: no-repeat;
     background-size: contain;
     /* background-position: 0 226px; */
