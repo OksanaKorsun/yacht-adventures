@@ -11,14 +11,51 @@
         about their journey with us.
       </p>
     </div>
-    <div class="reviews-cards">
-      <ul class="reviews-list">
-        <li class="reviews-item">
-          <img
-            class="reviews-item-img"
-            src="/img/reviews-img/review-first.png"
-            alt="John Wax"
-          />
+    <div class="swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/reviews-img/client1_tab@1x.webp 1x,
+                /img/reviews-img/client1_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/reviews-img/client1_tab@1x.png 1x,
+                /img/reviews-img/client1_tab@2x.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/reviews-img/client1_mob@1x.webp 1x,
+                /img/reviews-img/client1_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/reviews-img/client1_mob@1x.png 1x,
+                /img/reviews-img/client1_mob@2x.png 2x
+              "
+              type="image/png"
+            />
+            <img
+              class="reviews-item-img"
+              src="/img/reviews-img/client1_tab@1x.png"
+              width="56"
+              height="56"
+              alt="John Wax"
+              loading="lazy"
+            />
+          </picture>
           <h4 class="reviews-item-name">John Wax</h4>
           <p class="reviews-item-desc">
             I rented the Lagoon 620 with my family for a week-long vacation and
@@ -26,12 +63,50 @@
             and luxurious, and the crew took care of everything.
           </p>
         </li>
-        <li class="reviews-item">
-          <img
-            class="reviews-item-img"
-            src="/img/reviews-img/review-second.png"
-            alt=""
-          />
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/reviews-img/client2_tab@1x.webp 1x,
+                /img/reviews-img/client2_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/reviews-img/client2_tab@1x.png 1x,
+                /img/reviews-img/client2_tab@2x.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/reviews-img/client2_mob@1x.webp 1x,
+                /img/reviews-img/client2_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/reviews-img/client2_mob@1x.png 1x,
+                /img/reviews-img/client2_mob@2x.png 2x
+              "
+              type="image/png"
+            />
+            <img
+              class="reviews-item-img"
+              src="/img/reviews-img/client2_tab@1x.png"
+              width="56"
+              height="56"
+              alt="Victoria Romashenko"
+              loading="lazy"
+            />
+          </picture>
+
           <h4 class="reviews-item-name">Victoria Romashenko</h4>
           <p class="reviews-item-desc">
             The Sunseeker Manhattan 66 was the perfect choice for our romantic
@@ -39,12 +114,49 @@
             we needed, and the crew was attentive and friendly.
           </p>
         </li>
-        <li class="reviews-item">
-          <img
-            class="reviews-item-img"
-            src="/img/reviews-img/review-third.png"
-            alt=""
-          />
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/reviews-img/client3_tab@1x.webp 1x,
+                /img/reviews-img/client3_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/reviews-img/client3_tab@1x.png 1x,
+                /img/reviews-img/client3_tab@2x.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/reviews-img/client3_mob@1x.webp 1x,
+                /img/reviews-img/client3_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/reviews-img/client3_mob@1x.png 1x,
+                /img/reviews-img/client3_mob@2x.png 2x
+              "
+              type="image/png"
+            />
+            <img
+              class="reviews-item-img"
+              src="/img/reviews-img/client3_tab@1x.png"
+              width="56"
+              height="56"
+              alt="Ihor Trachuk"
+              loading="lazy"
+            />
+          </picture>
           <h4 class="reviews-item-name">Ihor Trachuk</h4>
           <p class="reviews-item-desc">
             The Azimut 80 was the most luxurious yacht I've ever been on. The
@@ -53,6 +165,7 @@
           </p>
         </li>
       </ul>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </section>
