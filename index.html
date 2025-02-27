@@ -33,7 +33,7 @@
     <!-- Custom styles -->
 
     <script type="module" crossorigin src="/yacht-adventures/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/yacht-adventures/assets/index-BF2E-ifd.css">
+    <link rel="stylesheet" crossorigin href="/yacht-adventures/assets/index-DaUwrKtz.css">
   </head>
   <body>
     <header class="header">
@@ -1444,18 +1444,41 @@
     <div class="backdrop" data-modal>
   <div class="modal">
     <button class="modal-close-btn" type="button" data-modal-close>
-      <svg class="modal-btn-icon" width="20" height="20">
+      <svg class="src/img/modal/yaht_mob@1x.png" width="20" height="20">
         <use href="/yacht-adventures/assets/sprite-BYqfzHod.svg#close"></use>
       </svg>
     </button>
     <div>
-      <img
-        class="modal-img"
-        src="/yacht-adventures/assets/modal-yaht-5bbujBak.png"
-        alt="Yaht"
-        width="338"
-        height="198"
-      />
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="/yacht-adventures/assets/yaht_tab@1x-yBBE01Ls.webp 1x, /yacht-adventures/assets/yaht_tab@2x-DMhNYZcq.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/yacht-adventures/assets/yaht_tab@1x-Buh6VvQd.png 1x, /yacht-adventures/assets/yaht_tab@2x-cY1Qs0yr.png 2x"
+          type="image/png"
+        />
+        <source
+          media="(max-width: 767px )"
+          srcset="/yacht-adventures/assets/yaht_mob@1x-aOXMejhK.webp 1x, /yacht-adventures/assets/yaht_mob@2x-BFAEpYwP.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/yacht-adventures/assets/yaht_mob@1x-c0niuZrK.png 1x, /yacht-adventures/assets/yaht_mob@2x-DVrnvY3t.png 2x"
+          type="image/png"
+        />
+        <img
+          class="modal-img"
+          src="/yacht-adventures/assets/yaht_tab@1x-Buh6VvQd.png"
+          alt="Yaht"
+          width="338"
+          height="198"
+          loading="lazy"
+        />
+      </picture>
       <div class="modal-info">
         <h3 class="subtitle" data-modal-greeting>Thank you</h3>
         <p class="modal-text">
