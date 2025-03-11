@@ -152,6 +152,7 @@
   width: 13px;
   height: 13px;
   background: var(--secondary-bg-color);
+  opacity: 1;
   border-radius: 100%;
   /* box-shadow: 2px 1px 3px 0 rgba(24, 55, 91, 0.2); */
 }
