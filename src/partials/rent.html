@@ -46,63 +46,63 @@
       </picture>
     </div>
 
-    <form
-      class="rent-form"
-      name="rent_form"
-      id="rent-form"
-      autocomplete="on"
-      method="post"
-    >
-      <label class="rent-form-field">
-        <input
-          class="rent-form-input"
-          type="text"
-          name="username"
-          placeholder="Oksana"
-          pattern="^[A-Za-z]{2,}(-[A-Za-z]{2,})?$"
-          title="Enter a name with at least 2 latin letters"
-          required
-        />
-        <span class="rent-form-tag">Full Name</span>
-      </label>
-
-      <label class="rent-form-field"
-        ><input
-          class="rent-form-input"
-          type="email"
-          name="email"
-          placeholder="example@gmail.com"
-          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-          title="Enter a valid email address"
-          required
-        /><span class="rent-form-tag">Email</span></label
+    <div class="form-wrap">
+      <form
+        class="rent-form"
+        name="rent_form"
+        id="rent-form"
+        autocomplete="on"
+        method="post"
       >
-
-      <label class="rent-form-field">
-        <input
-          class="rent-form-input"
-          type="tel"
-          name="phone"
-          placeholder="+380935432119"
-          pattern="^(\+?380|0)\d{9}$"
-          title="Enter a valid phone number"
-          required
-        /><span class="rent-form-tag">Phone number</span>
-      </label>
-      <label class="rent-form-field comment">
-        <textarea
-          class="rent-form-comment"
-          name="comment"
-          placeholder="&nbsp;"
-        ></textarea>
-        <span class="rent-form-tag">Comment</span>
-      </label>
-      <button class="rent-form-btn" type="submit" data-modal-open>
-        Send
-        <svg class="rent-btn-icon" width="18" height="8.66">
-          <use href="/img/sprite.svg#arrow-right"></use>
-        </svg>
-      </button>
-    </form>
+        <label class="rent-form-field">
+          <input
+            class="rent-form-input"
+            type="text"
+            name="username"
+            placeholder="Oksana"
+            pattern="^[A-Za-z]{2,}(-[A-Za-z]{2,})?$"
+            title="Enter a name with at least 2 latin letters"
+            required
+          />
+          <span class="rent-form-tag">Full Name</span>
+        </label>
+        <label class="rent-form-field"
+          ><input
+            class="rent-form-input"
+            type="email"
+            name="email"
+            placeholder="example@gmail.com"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            title="Enter a valid email address"
+            required
+          /><span class="rent-form-tag">Email</span></label
+        >
+        <label class="rent-form-field">
+          <input
+            class="rent-form-input"
+            type="tel"
+            name="phone"
+            placeholder="+380935432119"
+            pattern="^(\+?380|0)\d{9}$"
+            title="Enter a valid phone number"
+            required
+          /><span class="rent-form-tag">Phone number</span>
+        </label>
+        <label class="rent-form-field comment">
+          <textarea
+            class="rent-form-comment"
+            name="comment"
+            placeholder="&nbsp;"
+          ></textarea>
+          <span class="rent-form-tag">Comment</span>
+        </label>
+        <button class="rent-form-btn" type="submit" data-modal-open>
+          Send
+          <svg class="rent-btn-icon" width="18" height="8.66">
+            <use href="/img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
   </div>
 </section>

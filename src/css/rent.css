@@ -100,7 +100,7 @@
 .rent-form-input:focus,
 .rent-form-comment:focus {
   outline: 1.5px solid var(--button-bg-color);
-  border-radius: 14px;
+  border-radius: 10px;
 }
 .rent-form-tag {
   position: absolute;

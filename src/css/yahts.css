@@ -204,7 +204,7 @@
   left: 115px;
 }
 .swiper-button-next {
-  right: 115px;
+  left: 175px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -218,7 +218,7 @@
     left: 294px;
   }
   .swiper-button-next {
-    right: 294px;
+    left: 360px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -232,7 +232,8 @@
     left: 0;
   }
   .swiper-button-next {
-    right: 0;
+    /* right: 0; */
+    left: 1166px;
   }
 }
 
