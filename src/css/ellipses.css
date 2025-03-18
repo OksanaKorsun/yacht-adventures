@@ -141,6 +141,7 @@
   width: 283px;
   height: 283px;
   background-color: rgba(145, 175, 186, 0.6);
+  z-index: -1;
 }
 
 @media only screen and (min-width: 768px) {
