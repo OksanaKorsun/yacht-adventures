@@ -62,7 +62,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .rent-forn {
+  .rent-form {
     width: 443px;
   }
 }
@@ -89,8 +89,8 @@
   outline: transparent;
   /* outline-offset: -1.5px; */
   border-bottom: 1px solid var(--main-text-color);
+  border-radius: 0;
   color: var(--main-text-color);
-  /* transition: border-radius var(--anim-fast); */
 }
 @media only screen and (min-width: 768px) {
   .rent-form-input {
@@ -147,6 +147,7 @@
   background-color: inherit;
   border: none;
   border-bottom: 1px solid var(--main-text-color);
+  border-radius: 0;
   color: var(--main-text-color);
   outline: transparent;
   outline-offset: -1px;
