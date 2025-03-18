@@ -1,8 +1,8 @@
- const swiper = new Swiper(".swiper", {
+ const navigationSwiper= new Swiper(".swiper-navigation-section", {
     slidesPerView: 1, 
     spaceBetween: 10, 
     direction: "horizontal",
-    loop: true,
+    // loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",

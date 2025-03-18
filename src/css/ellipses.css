@@ -16,6 +16,7 @@
   border-radius: 50%;
   filter: blur(100px);
   transform: rotate(-45deg);
+  pointer-events: none;
 }
 
 .hero-image-container::before {

@@ -1,6 +1,5 @@
-const swiper = new Swiper('.swiper', {
+const paginationSwiper = new Swiper('.swiper-pagination-section', {
   direction: 'horizontal',
-  loop: true,
   loop: true,
   slidesPerView: 'auto',
   spaceBetween: 16,
@@ -8,7 +7,7 @@ const swiper = new Swiper('.swiper', {
 
   pagination: {
     el: '.swiper-pagination',
-    clickable: true, // что-бы сделать пагинацию кликабельной
+    clickable: true, 
     },
   breakpoints: {
       375: {
