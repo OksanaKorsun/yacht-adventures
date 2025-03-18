@@ -48,7 +48,7 @@
   <body>
     <header class="header">
   <div class="header-container container">
-    <a class="logo" href="/index.html">
+    <a class="logo" href="">
       <img
         class="header-logo-img"
         src="data:image/svg+xml,%3csvg%20width='23'%20height='23'%20viewBox='0%200%2023%2023'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cmask%20id='mask0_3500_15'%20style='mask-type:alpha'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='23'%20height='23'%3e%3cpath%20d='M0%2018.4153L5.18842%2023H20.4087L22.5879%2019.9381L0.00191667%2018.4153H0ZM13.4023%200V18.2783L20.4068%2018.7603L13.4023%200ZM12.4478%203.08008L2.32779%2017.481L12.4478%2018.1642V3.08008Z'%20fill='black'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_3500_15)'%3e%3cpath%20d='M0%200H23V23H0V0Z'%20fill='url(%23paint0_linear_3500_15)'/%3e%3c/g%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_3500_15'%20x1='9.79396'%20y1='3.48665e-06'%20x2='21.5409'%20y2='0.444325'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%23BEC7C2'/%3e%3cstop%20offset='1'%20stop-color='%23A1B5BA'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"
@@ -60,7 +60,7 @@
     </a>
     <button
       class="menu-toggle js-open-menu"
-      aria-label="Close menu"
+      aria-label="Open menu"
       aria-expanded="false"
       aria-controls="mobile-menu"
       type="button"
@@ -1508,7 +1508,7 @@
       />
       <span class="logo-text">YACHT ADVENTURES</span>
     </a>
-    <button class="menu-toggle js-close-menu">
+    <button class="menu-toggle js-close-menu" aria-label="Close menu">
       <svg width="24" height="24">
         <use href="../img/sprite.svg#close"></use>
       </svg>
@@ -1538,6 +1538,9 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.9/dist/jquery.inputmask.min.js"></script> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
   </body>
 </html>
