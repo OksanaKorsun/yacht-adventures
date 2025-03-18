@@ -84,7 +84,7 @@
 .hero-left-content {
   position: relative;
 }
-.hero-image-container {
+/* .hero-image-container {
   width: 335px;
   height: 427px;
   background-image: url(/img/hero/mask_mob@1x.png);
@@ -92,7 +92,6 @@
   background-position: center;
   background-size: cover;
   color: var(--secondary-text-color);
-  /* perspective: 1000px; */
 }
 @supports (
   background-image:
@@ -133,6 +132,78 @@
     }
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-image-container {
+      background-image: url(/img/hero/mask_tab@2x.png);
+    }
+    @supports (
+      background-image:
+        url('data:image/webp;base64,UklGRiIAAABXRUJQVlA4ICwAAAAwAQCdASoBAAEAAkA4JQBOgAA=')
+    ) {
+      .hero-image-container {
+        background-image: url(/img/hero/mask_tab@2x.webp);
+      }
+    }
+  }
+} */
+.hero-image-container {
+  width: 335px;
+  height: 427px;
+  background-image: url(/img/hero/mask_mob@1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--secondary-text-color);
+}
+
+@supports (
+  background-image:
+    url('data:image/webp;base64,UklGRiIAAABXRUJQVlA4ICwAAAAwAQCdASoBAAEAAkA4JQBOgAA=')
+) {
+  .hero-image-container {
+    background-image: url(/img/hero/mask_mob@1x.webp);
+  }
+}
+
+/* Медіа запити для підтримки ретини */
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-image-container {
+    background-image: url(/img/hero/mask_mob@2x.png);
+  }
+
+  @supports (
+    background-image:
+      url('data:image/webp;base64,UklGRiIAAABXRUJQVlA4ICwAAAAwAQCdASoBAAEAAkA4JQBOgAA=')
+  ) {
+    .hero-image-container {
+      background-image: url(/img/hero/mask_mob@2x.webp);
+    }
+  }
+}
+
+/* Медіа запит для планшетів і більших екранів */
+@media only screen and (min-width: 768px) {
+  .hero-image-container {
+    width: 426px;
+    height: 598px;
+    background-image: url(/img/hero/mask_tab@1x.png);
+  }
+
+  @supports (
+    background-image:
+      url('data:image/webp;base64,UklGRiIAAABXRUJQVlA4ICwAAAAwAQCdASoBAAEAAkA4JQBOgAA=')
+  ) {
+    .hero-image-container {
+      background-image: url(/img/hero/mask_tab@1x.webp);
+    }
+  }
+
+  /* Медіа запити для ретини для планшетів */
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
