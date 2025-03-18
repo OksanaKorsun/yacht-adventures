@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const swiper = new Swiper(".swiper", {
+ const swiper = new Swiper(".swiper", {
     slidesPerView: 1, 
     spaceBetween: 10, 
     direction: "horizontal",
@@ -23,5 +22,3 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
-});
-console.log(swiper);  // Перевір, чи Swiper доступний
