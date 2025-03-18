@@ -24,3 +24,4 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
+console.log(swiper);  // Перевір, чи Swiper доступний
