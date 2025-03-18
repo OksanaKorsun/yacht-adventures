@@ -87,7 +87,7 @@
   background-color: transparent;
   border: none;
   outline: transparent;
-  outline-offset: -1.5px;
+  /* outline-offset: -1.5px; */
   border-bottom: 1px solid var(--main-text-color);
   color: var(--main-text-color);
   /* transition: border-radius var(--anim-fast); */
@@ -97,11 +97,11 @@
     height: 35px;
   }
 }
-.rent-form-input:focus,
+/* .rent-form-input:focus,
 .rent-form-comment:focus {
   outline: 1.5px solid var(--button-bg-color);
   border-radius: 10px;
-}
+} */
 .rent-form-tag {
   position: absolute;
   top: 0;
