@@ -38,6 +38,27 @@
     border-radius: 40px;
   }
 }
+.modal::after {
+  content: '';
+  position: absolute;
+  width: 142px;
+  height: 142px;
+  transform: rotate(-45deg);
+  top: 51px;
+  left: 90px;
+  background: rgba(145, 175, 186, 0.6);
+  opacity: 0.6;
+  filter: blur(100px);
+  border-radius: 50%;
+}
+@media only screen and (min-width: 768px) {
+  .modal::after {
+    top: 66px;
+    left: 160px;
+    width: 265px;
+    height: 265px;
+  }
+}
 
 .backdrop.active {
   opacity: 1;
